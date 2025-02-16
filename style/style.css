@@ -147,7 +147,7 @@ html::-webkit-scrollbar {
 h1 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
-  margin-top: 10px;
+  margin-top: 50px;
   color: rgb(0, 0, 0);
 }
 
@@ -862,9 +862,6 @@ button {
 }
 
 /* Componentes */
-@import "components/header.css";
-@import "components/footer.css";
-@import "components/cards.css";
 
 .block__element--modifier {
   /* propiedades */
