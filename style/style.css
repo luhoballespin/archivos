@@ -111,22 +111,7 @@ header {
   height: 1.5em;
 }
 
-/* Scrollbar personalizado */
-/* Eliminar o comentar este bloque
-::-webkit-scrollbar {
-  width: 10px;
-}
 
-::-webkit-scrollbar-track {
-  background: var(--color-accent);
-  border-radius: 50px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--color-primary);
-  border-radius: 50px;
-}
-*/
 
 /* Agregar estos estilos para ocultar completamente la barra de scroll */
 html {
@@ -301,7 +286,42 @@ h1 {
 
 /* Footer */
 footer {
-  background-color: rgb(236, 231, 231);
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+footer p, footer ul {
+  font-size: 0.875rem;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer .img-fluid {
+  max-width: 150px;
+}
+
+footer .text-light {
+  color: #ffffff !important;
+}
+
+footer .text-light:hover {
+  color: #adb5bd !important;
+}
+
+footer .me-2 {
+  margin-right: 0.5rem !important;
 }
 
 .contieneFooter {
@@ -943,4 +963,10 @@ button {
   .card-image-wrapper {
     padding-top: 66.67%;
   }
+}
+
+.hero-img { 
+  padding: 50px 0px 0px 0px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
 }
