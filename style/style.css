@@ -111,6 +111,8 @@ header {
   height: 1.5em;
 }
 
+
+
 /* Agregar estos estilos para ocultar completamente la barra de scroll */
 html {
   scrollbar-width: none; /* Para Firefox */
@@ -147,6 +149,7 @@ h1 {
   font-family: "Roboto Condensed", sans-serif;
   margin-top: 50px;
   color: rgb(0, 0, 0);
+  
 }
 
 /* Productos Destacados */
@@ -229,12 +232,8 @@ h1 {
 
 .producto-overlay {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
+  top: 1rem;
+  right: 1rem;
 }
 
 .caracteristicas-lista {
@@ -506,7 +505,8 @@ button {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* Sección Quienes Somos */
+/*QUIENES SOMOS*/
+
 .quienes__container {
   display: flex;
   padding: 10px;
@@ -517,7 +517,6 @@ button {
   height: 400px;
   width: 600px;
 }
-
 .quienes__text {
   padding: 20px;
   font-family: "BIZ UDMincho", serif;
