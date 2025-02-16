@@ -111,8 +111,6 @@ header {
   height: 1.5em;
 }
 
-
-
 /* Agregar estos estilos para ocultar completamente la barra de scroll */
 html {
   scrollbar-width: none; /* Para Firefox */
@@ -231,8 +229,12 @@ h1 {
 
 .producto-overlay {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
 }
 
 .caracteristicas-lista {
@@ -466,8 +468,45 @@ button {
   margin-top: 14px;
 }
 
-/*QUIENES SOMOS*/
+/* Estilos para el formulario de presupuestos */
+.datosPresupuestos {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
 
+.datosPresupuestos h2 {
+    font-family: 'Graduate', sans-serif;
+    margin-bottom: 50px; 
+    margin-top: 20px;
+}
+
+.datosPresupuestos .form-label {
+    font-weight: bold;
+}
+
+.datosPresupuestos .form-control {
+    border-radius: 0.25rem;
+}
+
+.datosPresupuestos .btn {
+    background-color: #dc3545;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.datosPresupuestos .btn:hover {
+    background-color: #c82333; 
+} 
+.titulo-presupuesto { 
+  margin-top: 35px;
+  font-size: 45px; 
+  color: rgb(0, 0, 0);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Sección Quienes Somos */
 .quienes__container {
   display: flex;
   padding: 10px;
@@ -478,6 +517,7 @@ button {
   height: 400px;
   width: 600px;
 }
+
 .quienes__text {
   padding: 20px;
   font-family: "BIZ UDMincho", serif;
@@ -863,9 +903,7 @@ button {
 
 /* Componentes */
 
-.block__element--modifier {
-  /* propiedades */
-}
+
 
 .interactive-element:focus {
   outline: var(--focus-outline);
